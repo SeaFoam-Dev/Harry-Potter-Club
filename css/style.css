@@ -135,3 +135,42 @@ footer a{
 footer a:hover{
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 740px) {
+    .banner{
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        height: 30rem;
+    }
+
+    .banner h1{
+        font-size: 3rem;
+    }
+
+    .banner p{
+        font-size: 1.7rem;
+    }
+    
+    .wizarding-grid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wizarding-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .wizarding-card{
+        position: static;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        width: 100%;
+        padding: 1rem 0;
+        width: 30rem;
+    }
